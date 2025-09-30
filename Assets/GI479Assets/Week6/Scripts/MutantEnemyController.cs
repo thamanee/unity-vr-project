@@ -60,7 +60,6 @@ public class MutantEnemyController : MonoBehaviour
 
     private void MoveToTarget()
     {
-        //TODO: Set agent to target destination
         Agent.SetDestination(Target.position);
         Agent.isStopped = false;
         pathCalculated = true;
@@ -68,7 +67,6 @@ public class MutantEnemyController : MonoBehaviour
 
     private void MoveToStartPosition()
     {
-        //TODO: Set agent to start destination
         Agent.SetDestination(startPosition);
         Agent.isStopped = false;
         pathCalculated = false;
@@ -76,7 +74,6 @@ public class MutantEnemyController : MonoBehaviour
 
     private void TryDealDamageToTarget()
     {
-        //TODO: Deal damage if target in attack radius
         if (IsTargetInAttackRadius() && Target.TryGetComponent(out Health targetHealth))
         {
             targetHealth.TakeDamage(AttackDamage);
