@@ -37,11 +37,7 @@ public class DoorOpenSensor : MonoBehaviour
         if (!isDoorOpen && Vector3.Distance(transform.position, PlayerTransform.position) < Distance)
         {
 
-            DoorAnimator.Play("Open");
-
-            isDoorOpen = true;
-
-            OnDoorOpen?.Invoke();
+            Open();
 
         }
 
@@ -49,12 +45,26 @@ public class DoorOpenSensor : MonoBehaviour
 
         {
 
-            DoorAnimator.Play("Close");
-
-            isDoorOpen = false;
-
-            OnDoorClose?.Invoke();
+            Close();
 
         }
+    }
+
+    public void Open()
+    {
+        DoorAnimator.Play("Open");
+
+        isDoorOpen = true;
+
+        OnDoorOpen?.Invoke();
+    }
+
+    public void Close()
+    {
+        DoorAnimator.Play("Close");
+
+        isDoorOpen = false;
+
+        OnDoorClose?.Invoke();
     }
 }
