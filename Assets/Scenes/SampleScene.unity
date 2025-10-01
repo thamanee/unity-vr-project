@@ -356,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35
+      value: -36.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_LocalPosition.y
@@ -364,7 +364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 34.72
+      value: 17.84
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_LocalRotation.w
@@ -408,15 +408,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 40262c421c289e7499fd9cc7bcd1df53, type: 2}
     - target: {fileID: 5866666021909216657, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'mixamo.com'\n\tFrom
-        animation clip 'mixamo.com'\n\tFrom animation clip 'mixamo.com'\n\tFrom animation
-        clip 'mixamo.com'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e853dfcabe92a214f82caf1e05094a12, type: 3}
       propertyPath: m_ApplyRootMotion
@@ -511,7 +503,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 1479372276
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -11826,7 +11818,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 1479372276
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -16330,6 +16322,10 @@ PrefabInstance:
     - target: {fileID: 3903482225864869175, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.123
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903482226191059922, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.156
       objectReference: {fileID: 0}
     - target: {fileID: 3903482226191059927, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_Enabled
